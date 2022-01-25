@@ -4,11 +4,31 @@ const NavBar = () => {
     return (
         <div className='bg-white border-b border-gray-200'>
             <div className="container flex">
-                <div className='px-8 py-4 bg-primary flex items-center cursor-pointer'>
-                    <span>
-                        <i className='fas fa-bars'></i>
-                    </span>
-                    <span className='capitalize ml-2 text-white'>All Categories</span>
+                <div className='py-4 flex items-center cursor-pointer relative group'>
+                    <span className='capitalize ml-2 text-black hover:text-primary transition'>All Categories<i class="fas fa-angle-down ml-2"></i></span>
+
+                    <div className='absolute w-full left-0 top-full bg-white shadow-md py-3 divide-y divided-gray-300 divide-dashed opacity-0 group-hover:opacity-100 transition duration-300 invisible group-hover:visible'>
+                        <a href="#" className='flex items-center px-6 py-3 hover:bg-gray-100 transition'>
+                            <i class="fas fa-apple-alt"></i>
+                            <span className='ml-6 text-gray-600 text-sm'>Fruits</span>
+                        </a>
+                        <a href="#" className='flex items-center px-6 py-3 hover:bg-gray-100 transition'>
+                            <i class="fas fa-apple-alt"></i>
+                            <span className='ml-6 text-gray-600 text-sm'>Fruits</span>
+                        </a>
+                        <a href="#" className='flex items-center px-6 py-3 hover:bg-gray-100 transition'>
+                            <i class="fas fa-apple-alt"></i>
+                            <span className='ml-6 text-gray-600 text-sm'>Fruits</span>
+                        </a>
+                        <a href="#" className='flex items-center px-6 py-3 hover:bg-gray-100 transition'>
+                            <i class="fas fa-apple-alt"></i>
+                            <span className='ml-6 text-gray-600 text-sm'>Fruits</span>
+                        </a>
+                        <a href="#" className='flex items-center px-6 py-3 hover:bg-gray-100 transition'>
+                            <i class="fas fa-apple-alt"></i>
+                            <span className='ml-6 text-gray-600 text-sm'>Fruits</span>
+                        </a>
+                    </div>
                 </div>
 
                 <div className='flex items-center justify-between flex-grow pl-12'>

@@ -30,7 +30,7 @@ const HeaderTop = () => {
                             <i className='far fa-heart'></i>
                         </div>
                         <div className='text-xs leading-3'>Wish List</div>
-                        <span className='absolute right-0 -top-1 w-5 rounded-full flex items-center justify-center bg-red-500 text-white text-xs'>8</span>
+                        <span className='absolute right-0 -top-1 w-5 rounded-full flex items-center justify-center bg-secondary text-white text-xs'>8</span>
                     </a>
 
                     <a href="#" className='text-center text-gray-700 hover:text-white transition relative'>
@@ -38,7 +38,7 @@ const HeaderTop = () => {
                             <i class="fas fa-shopping-cart"></i>
                         </div>
                         <div className='text-xs leading-3'>Cart</div>
-                        <span className='absolute -right-3 -top-1 w-5 rounded-full flex items-center justify-center bg-red-500 text-white text-xs'>8</span>
+                        <span className='absolute -right-3 -top-1 w-5 rounded-full flex items-center justify-center bg-secondary text-white text-xs'>8</span>
                     </a>
 
                     <a href="#" className='text-center text-gray-700 hover:text-white transition relative'>
