@@ -11,7 +11,7 @@ const Categories = () => {
         <div className='container py-16'>
             <h2 className='text-3xl text-center font-medium text-gray-800 uppercase mb-6'>shop by category</h2>
 
-            <div className='grid grid-cols-3 gap-3'>
+            <div className='grid sm:grid-cols-1 lg:grid-cols-3 gap-3'>
                 <div className='relative rounded-sm overflow-hidden group'>
                     <img src={foods} className='w-full h-60' alt="" />
                     <a href="#" className='absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition'>Foods</a>

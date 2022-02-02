@@ -1,10 +1,11 @@
-import Home from './pages/Home/Home';
+import "@material-tailwind/react/tailwind.css";
+import Router from "./utilities/Route/Router";
 
 function App() {
   return (
-    <div>
-      <Home />
-    </div>
+    <>
+      <Router />
+    </>
   );
 }
 
