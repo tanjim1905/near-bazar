@@ -4,7 +4,7 @@ import paypal from '../../../assests/images/paypal.png';
 const FooterBottom = () => {
     return (
         <div>
-            <div className='grid grid-cols-3 gap-x-10 items-center bg-gray-200 px-12 py-8 rounded-lg mt-6'>
+            <div className='grid lg:grid-cols-3 gap-x-10 items-center bg-gray-200 px-12 py-8 rounded-lg mt-6'>
                 <div>
                     <p>Follow us</p>
                     <div className='flex gap-x-3 text-white text-xl'>
