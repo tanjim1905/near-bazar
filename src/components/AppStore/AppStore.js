@@ -7,7 +7,7 @@ import google from '../../assests/images/google-store.png';
 const AppStore = () => {
     return (
         <div className='bg-green-50 py-16'>
-            <div className="container grid grid-cols-3 items-center gap-x-5">
+            <div className="container lg:grid grid-cols-3 items-center gap-x-5">
                 <div>
                     <img src={left} alt="" />
                 </div>
